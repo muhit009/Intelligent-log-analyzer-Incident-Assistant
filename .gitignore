@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Databases & local data
+# =========================
+*.db
+*.sqlite3
+data/
+data/**
+logs/
+logs/**
+
+# =========================
+# Pytest / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Mypy / type checking
+# =========================
+.mypy_cache/
+.dmypy.json
+
+# =========================
+# Jupyter / ML artifacts
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+models_artifacts/
+models_artifacts/**
+artifacts/
+artifacts/**
+*.pkl
+*.joblib
+
+# =========================
+# Alembic
+# =========================
+alembic/__pycache__/
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.log
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/

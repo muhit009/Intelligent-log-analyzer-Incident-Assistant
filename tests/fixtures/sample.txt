@@ -1,0 +1,5 @@
+2025-12-31T12:15:41Z INFO auth-service User login ok
+2025-12-31 12:15:41,120 ERROR billing Payment failed
+127.0.0.1 - - [31/Dec/2025:12:15:41 +0000] "GET /health HTTP/1.1" 200 15
+{"timestamp": "2025-12-31T12:15:42Z", "level": "WARN", "service": "gateway", "message": "High latency detected"}
+this is a garbage line that should fail parsing
